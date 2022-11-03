@@ -4,3 +4,33 @@
   box-sizing: border-box;
 }
 
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(242,191,89);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+    width: 700px;
+    display: flex;
+    gap: 12px;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+}
+
+.card--img {
+    height: 72px;
+    width: 72px;
+    border-radius: 50%;
+}
